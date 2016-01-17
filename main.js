@@ -6,15 +6,24 @@
       var self = this;
 
       this.matchName = /^[a-zA-Z]+$/;
-      this.inputs = [
-        'first',
-        'last'
-      ];
+      this.validCharacterErrorMessage = 'Please use alphabet characters!';
+      this.inputs = ['first', 'last'];
 
-      $('.submit').click(function() {
+      this.firstNameStatus = $('.first-name-status');
+      this.lastNameStatus = $('.last-name-status');
+
+      $('.submit').on('click', function() {
         self.validateFirstName();
         self.validateLastName();
+
+        if (self.validateFirstName() && self.validateLastName()) {
+          $('.success.hidden').removeClass('hidden');
+          self.firstNameStatus.html('');
+          self.lastNameStatus.html('');
+          console.log('both true');
+        }
       });
+
 
       $('#contact').submit(function(event) {
           event.preventDefault();
@@ -27,9 +36,11 @@
       var $status = $('.first-name-status');
 
       if ($firstName.length === 0) {
-        $status.replaceWith('<td class="error"> Please enter a ' + this.inputs[0] + ' name!</td>');
+        $status.html('Please enter a ' + this.inputs[0] + ' name!').addClass('error');
       } else if (!this.matchName.test($firstName)) {
-        $status.replaceWith('<td class="error"> Please use alphabet characters!</td>');
+        $('.first-name-status').html(this.validCharacterErrorMessage).addClass('error');
+      } else {
+        return true;
       }
     },
 
@@ -39,9 +50,11 @@
       var $status = $('.last-name-status');
 
       if ($lastName.length === 0) {
-        $status.replaceWith('<td class="error"> Please enter a ' + this.inputs[1] + ' name!</td>');
+        $status.html('Please enter a ' + this.inputs[1] + ' name!').addClass('error');
       } else if (!this.matchName.test($lastName)) {
-        $status.replaceWith('<td class="error"> Please use alphabet characters</td>');
+        $('.last-name-status').html(this.validCharacterErrorMessage).addClass('error');
+      } else {
+        return true;
       }
     }   
   };
