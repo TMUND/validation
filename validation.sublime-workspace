@@ -1,0 +1,729 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"outl",
+				"outline-style"
+			],
+			[
+				"scotch",
+				"scotch-anchored"
+			],
+			[
+				"tras",
+				"transitionEnd"
+			],
+			[
+				"remov",
+				"removeChild"
+			],
+			[
+				"trans",
+				"transitionEnd"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"conte",
+				"contentHolder"
+			],
+			[
+				"apen",
+				"appendChild"
+			],
+			[
+				"content",
+				"contentHolder"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"close",
+				"closeButton"
+			],
+			[
+				"curre",
+				"currentTag"
+			],
+			[
+				"curret",
+				"currentTag"
+			],
+			[
+				"_make",
+				"_makeApiCall"
+			],
+			[
+				"curren",
+				"currentText"
+			],
+			[
+				"current",
+				"currentValue"
+			],
+			[
+				"ta",
+				"tagText"
+			],
+			[
+				"_displ",
+				"_displayUserGif"
+			],
+			[
+				"cu",
+				"currentText"
+			],
+			[
+				"_d",
+				"_displayUserGif"
+			],
+			[
+				"_",
+				"_displayUserGif"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"mak",
+				"_makeUpdatedAjaxCall"
+			],
+			[
+				"_ma",
+				"_makeUpdatedAjaxCall"
+			],
+			[
+				"input",
+				"inputText"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"imag",
+				"imageDisplay"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"table-",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"pulse",
+				"pulseTimer2"
+			],
+			[
+				"pulseTimer",
+				"pulseTimer2"
+			],
+			[
+				"clock",
+				"clockDiv"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 1967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"synthtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synthtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntjac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntht",
+				"Set Syntax: HTML"
+			],
+			[
+				"view",
+				"View: Toggle Status Bar"
+			],
+			[
+				"vie",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/toni/Desktop/projects/giphy/giphy/style/jquery.modal.css",
+		"/Users/toni/Desktop/projects/giphy/giphy/giphy.sublime-project",
+		"/Users/toni/Desktop/projects/giphy/giphy/contact-form.html",
+		"/Users/toni/Desktop/projects/giphy/giphy/modal.js",
+		"/Users/toni/Desktop/projects/giphy/giphy/.gitignore",
+		"/Users/toni/Desktop/projects/giphy/giphy/README.md",
+		"/Users/toni/Desktop/projects/profile/js/demo-view.js",
+		"/Users/toni/Desktop/projects/profile/.gitignore",
+		"/Users/toni/Desktop/projects/profile/profile.sublime-project",
+		"/Users/toni/Desktop/projects/openseadragon/src/tiledimage.js",
+		"/Users/toni/Desktop/projects/openseadragon/README.md",
+		"/Users/toni/Desktop/projects/openseadragon/build/openseadragon/openseadragon.js",
+		"/Users/toni/Desktop/projects/visualization/visualization.sublime-project",
+		"/Users/toni/Desktop/projects/visualization/.gitignore",
+		"/Users/toni/Desktop/projects/bronksknifeworks/.gitignore",
+		"/Users/toni/Desktop/projects/bronksknifeworks/bronksknifeworks.sublime-project",
+		"/Users/toni/Desktop/projects/sandbox/.gitignore",
+		"/Users/toni/Desktop/projects/sandbox/README.md",
+		"/Users/toni/Desktop/projects/sandbox/sandbox.sublime-project",
+		"/Users/toni/Desktop/projects/ticktacotoe/ticktacotoe.sublime-project",
+		"/Users/toni/Desktop/projects/ticktacotoe/README.md",
+		"/Users/toni/Desktop/projects/ticktacotoe/index.html",
+		"/Users/toni/Desktop/projects/ticktacotoe/style.css",
+		"/Users/toni/Desktop/projects/ticktacotoe/.gitignore",
+		"/Users/toni/Desktop/projects/ticktacotoe/main.js",
+		"/Users/toni/Desktop/projects/ticktacotoe/player.js",
+		"/ticktacotoe.sublime-project",
+		"/Users/toni/Desktop/if-then test.html",
+		"/Users/toni/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/toni/Desktop/Random $H17 /test.js",
+		"/Users/toni/Desktop/if then test.js",
+		"/Users/toni/Desktop/does this work.html",
+		"/Users/toni/Desktop/Hello World.html",
+		"/Users/toni/Desktop/does this work.js",
+		"/Users/toni/Desktop/Clock.css",
+		"/Users/toni/Desktop/Clock.html",
+		"/Users/toni/Desktop/Clock.js",
+		"/Users/toni/Desktop/googlemaps.js",
+		"/Users/toni/Desktop/test.js",
+		"/Users/toni/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/toni/Desktop/url-shortener for fun editing.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"*min",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"e.",
+			"container",
+			"\"",
+			"e",
+			"!important",
+			".modal",
+			"none",
+			"/><br",
+			"\"input\"",
+			"top 500ms ease",
+			"fade-and-drop",
+			"500ms top ease",
+			"500ms e",
+			"500ms ",
+			"1ms opacity ease",
+			"-50%)",
+			"1ms opacity ease",
+			"transition",
+			"min",
+			"userInputTag",
+			"currentTag",
+			"this.apiCall",
+			"userInputText",
+			"currentText",
+			"args",
+			"content",
+			"banner",
+			"content",
+			"//",
+			"min-",
+			"100",
+			"ace-arou",
+			".display",
+			"display",
+			"apiCall.",
+			"ApiCall",
+			"apiCall",
+			"_userData",
+			"_data",
+			"fixed_height_downsampled_url",
+			"data",
+			"fixed_height_downsampled_url",
+			"currentText",
+			"currentTag",
+			"_makeAjaxCall",
+			"_useData",
+			"self.",
+			"this",
+			"self.",
+			"this",
+			"var ",
+			"this.",
+			": ",
+			";",
+			"var ",
+			" =",
+			"=",
+			"var ",
+			"self",
+			"currentTag",
+			"#",
+			"id",
+			"nameDiv",
+			"\"",
+			"live",
+			"\"",
+			"inputTag",
+			"\"",
+			"absolute",
+			"\"",
+			"this",
+			"\"",
+			"var ",
+			"auto",
+			"data",
+			"window.initmap",
+			"xhr",
+			"$title",
+			"li",
+			"0",
+			"   ",
+			"  ",
+			"response",
+			"..",
+			"social",
+			"img",
+			"png",
+			"img/",
+			"img",
+			"img/",
+			"img",
+			"55px",
+			"li",
+			"button",
+			"img/",
+			"/img",
+			"/i",
+			"100px",
+			"divider",
+			":",
+			"<p>",
+			"display",
+			"\n  ",
+			"  positon: relative;\n",
+			"id",
+			"'red'",
+			"<canvas>.",
+			"openseadragon.viewer",
+			"viewer.html",
+			"openseadragon.viewer.html",
+			"<canvas>.",
+			"tile-drawing",
+			"The main OpenSeadragon viewer class.",
+			"</canvas>",
+			"<canvas>",
+			"This event is fired just before",
+			"tile-drawing",
+			"playernu",
+			"turn",
+			"hasWinner",
+			"startPlayerTickAnimation",
+			"animationTouse",
+			"tickAnimation",
+			"height",
+			"10",
+			"display",
+			"=======",
+			"<<<<<<<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2734,
+								2734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style/main.css",
+					"settings":
+					{
+						"buffer_size": 1967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1838,
+								1838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.js",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"body",
+				"body{"
+			],
+			[
+				"",
+				"/Users/toni/Desktop/test.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"valida",
+				"/Users/toni/Desktop/projects/validation/validation.sublime-project"
+			],
+			[
+				"rdio",
+				"/Users/toni/Desktop/projects/rdio-exodus/rdio-exodus.sublime-project"
+			],
+			[
+				"sitebu",
+				"/Users/toni/Desktop/projects/site-build/site-build.sublime-project"
+			],
+			[
+				"opensea",
+				"/Users/toni/Desktop/projects/openseadragon/openseadragon.sublime-project"
+			],
+			[
+				"site",
+				"/Users/toni/Desktop/projects/site-build/site-build.sublime-project"
+			],
+			[
+				"open",
+				"/Users/toni/Desktop/projects/openseadragon/openseadragon.sublime-project"
+			],
+			[
+				"bronks",
+				"/Users/toni/Desktop/projects/bronksknifeworksv1/bronksknifeworks.sublime-project"
+			],
+			[
+				"sand",
+				"/Users/toni/Desktop/projects/sandbox/sandbox/sandbox.sublime-project"
+			],
+			[
+				"agu",
+				"/Users/toni/Desktop/projects/angularjs-practice/angular-practice.sublime-project"
+			],
+			[
+				"",
+				"/Users/toni/Desktop/projects/ticktacotoe/js-toys.sublime-project"
+			],
+			[
+				"ope",
+				"/Users/toni/Desktop/projects/openseadragon/openseadragon.sublime-project"
+			],
+			[
+				"js",
+				"/Users/toni/Desktop/projects/ticktacotoe/js-toys.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
