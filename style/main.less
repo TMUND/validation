@@ -1,13 +1,75 @@
 body {
   background-color: #121621;
+  font-family: 'Poppins:300';
 }
-.content {
+
+.main-content {
   position: relative;
   width: 95%;
-  height: 850px;
+  height: 100%;
   max-width: 900px;
   padding: 1em;
   margin: auto;
   background-color: #b2b6ce;
   box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  font-family: 'Righteous';
+  font-size: 16px;
+  color: #121621;
+  text-transform: uppercase;
+}
+
+.section {
+  margin: 0 20px 0 20px;
+}
+
+#contact {
+  table {
+    border-collapse: collapse;
+  }
+
+  .label {
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+
+  .field {
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-bottom: 20px;
+  }
+
+  .status {
+    width: 200px;
+    white-space: nowrap;
+  }
+
+  .error {
+    width: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    color: #990000;
+  }
+}
+
+.submit {
+  width: 80px;
+  height: 40px;
+  margin: 10px 0 0 0;
+}
+
+form {
+  text-align: left;
+}
+
+fieldset {
+  font-size: 18px;
+  border: 1px solid white;
 }
