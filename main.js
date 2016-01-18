@@ -5,6 +5,14 @@
     init: function() {
       var self = this;
 
+      $('#first-name').keyup(function(event) {
+        self.validateFirstName();
+      });
+
+      $('#last-name').keyup(function(event) {
+        self.validateLastName();
+      });
+
       this.matchName = /^[a-zA-Z]+$/;
       this.validCharacterErrorMessage = 'Please use alphabet characters!';
       this.inputs = ['first', 'last'];
@@ -13,9 +21,6 @@
       this.lastNameStatus = $('.last-name-status');
 
       $('.submit').on('click', function() {
-        self.validateFirstName();
-        self.validateLastName();
-
         if (self.validateFirstName() && self.validateLastName()) {
           $('.success.hidden').removeClass('hidden');
           self.firstNameStatus.html('');
@@ -23,7 +28,6 @@
           console.log('both true');
         }
       });
-
 
       $('#contact').submit(function(event) {
           event.preventDefault();
@@ -40,6 +44,7 @@
       } else if (!this.matchName.test($firstName)) {
         $('.first-name-status').html(this.validCharacterErrorMessage).addClass('error');
       } else {
+        $status.html('');
         return true;
       }
     },
@@ -54,6 +59,7 @@
       } else if (!this.matchName.test($lastName)) {
         $('.last-name-status').html(this.validCharacterErrorMessage).addClass('error');
       } else {
+        $status.html('');
         return true;
       }
     }   
