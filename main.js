@@ -25,7 +25,16 @@
           $('.success.hidden').removeClass('hidden');
           self.firstNameStatus.html('');
           self.lastNameStatus.html('');
+          $('div.warning').addClass('hidden');
           console.log('both true');
+        }
+
+        if (!self.validateFirstName()) {
+          $('.warning.hidden').removeClass('hidden');
+        }
+
+        if (!self.validateLastName()) {
+          $('.warning.hidden').removeClass('hidden');
         }
       });
 
