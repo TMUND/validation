@@ -5,20 +5,14 @@
     init: function() {
       var self = this;
 
-      $('#first-name').keyup(function(event) {
-        self.validateFirstName();
-      });
+      this.firstName = $('#first-name');
+      this.firstNameStatus = $('.first-name-status');
+      this.lastName = $('#last-name');
+      this.lastNameStatus = $('.last-name-status');
 
-      $('#last-name').keyup(function(event) {
-        self.validateLastName();
-      });
-
+      this.inputs = ['first', 'last'];
       this.matchName = /^[a-zA-Z]+$/;
       this.validCharacterErrorMessage = 'Please use alphabet characters!';
-      this.inputs = ['first', 'last'];
-
-      this.firstNameStatus = $('.first-name-status');
-      this.lastNameStatus = $('.last-name-status');
 
       $('.submit').on('click', function() {
         if (self.validateFirstName() && self.validateLastName()) {
@@ -26,16 +20,19 @@
           self.firstNameStatus.html('');
           self.lastNameStatus.html('');
           $('div.warning').addClass('hidden');
-          console.log('both true');
+        } else if (!self.validateFirstName() || !self.validateLastName()) {
+          $('.warning.hidden').removeClass('hidden')
+          self.validateFirstName();
+          self.validateLastName();
         }
+      });
+        
+      this.firstName.keyup(function(event) {
+        self.validateFirstName();
+      });
 
-        if (!self.validateFirstName()) {
-          $('.warning.hidden').removeClass('hidden');
-        }
-
-        if (!self.validateLastName()) {
-          $('.warning.hidden').removeClass('hidden');
-        }
+      this.lastName.keyup(function(event) {
+        self.validateLastName();
       });
 
       $('#contact').submit(function(event) {
@@ -45,30 +42,24 @@
 
     // ----------
     validateFirstName: function() {
-      var $firstName = $('#first-name').val();
-      var $status = $('.first-name-status');
-
-      if ($firstName.length === 0) {
-        $status.html('Please enter a ' + this.inputs[0] + ' name!').addClass('error');
-      } else if (!this.matchName.test($firstName)) {
+      if (this.firstName.val().length === 0) {
+        this.firstNameStatus.html('Please enter a ' + this.inputs[0] + ' name!').addClass('error');
+      } else if (!this.matchName.test(this.firstName.val())) {
         $('.first-name-status').html(this.validCharacterErrorMessage).addClass('error');
       } else {
-        $status.html('');
+        this.firstNameStatus.html('');
         return true;
       }
     },
 
     // ----------
     validateLastName: function() {
-      var $lastName = $('#last-name').val();
-      var $status = $('.last-name-status');
-
-      if ($lastName.length === 0) {
-        $status.html('Please enter a ' + this.inputs[1] + ' name!').addClass('error');
-      } else if (!this.matchName.test($lastName)) {
+      if (this.lastName.val().length === 0) {
+        this.lastNameStatus.html('Please enter a ' + this.inputs[1] + ' name!').addClass('error');
+      } else if (!this.matchName.test(this.lastName.val())) {
         $('.last-name-status').html(this.validCharacterErrorMessage).addClass('error');
       } else {
-        $status.html('');
+        this.lastNameStatus.html('');
         return true;
       }
     }   
